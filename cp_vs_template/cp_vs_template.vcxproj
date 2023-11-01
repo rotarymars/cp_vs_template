@@ -143,10 +143,10 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>bash $(ProjectDir)oj_helper.sh t $(TargetPath)</Command>
+      <Command>bash $(ProjectDir)oj_helper.sh s $(TargetPath)</Command>
     </PostBuildEvent>
     <PostBuildEvent>
-      <Message>run test</Message>
+      <Message>run submit</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

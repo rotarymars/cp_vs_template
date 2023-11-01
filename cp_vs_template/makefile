@@ -19,4 +19,4 @@ test: $(PROGRAM) test/sample-1.in
 
 .PHONY : submit
 submit: $(PROGRAM) test
-	oj_helper.sh s main.cpp
+	python oj_helper.py s main.cpp
