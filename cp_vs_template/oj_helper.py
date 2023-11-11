@@ -64,8 +64,8 @@ if sys.argv[1] == 'd':
     os.system(cmd)
 elif sys.argv[1] == 's':
     lang = ''
-    if re.match(r'^https://atcoder.jp/', url):
-        lang = '-l 5031'
+    # if re.match(r'^https://atcoder.jp/', url):
+    #     lang = '-l 5031'
 
     cmd = f'oj s {lang} -y {url} {sys.argv[2]}'
     # print(cmd)
