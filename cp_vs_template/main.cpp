@@ -50,6 +50,8 @@ void PRINT2D(U a) {
   cout << "******VECTOR 2D PRINT ENDED******\n";
 }
 
+//行列回転、
+
 int main()
 {
   cin.tie(nullptr);
