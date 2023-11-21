@@ -1,4 +1,4 @@
-﻿#include <algorithm>
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -11,7 +11,7 @@ using namespace std;
 
 #define VALL(a) a.begin(), a.end()
 
-using ll = long long;
+using LL = long long;
 using VI = std::vector<int>;
 using VVI = std::vector<VI>;
 using VC = std::vector<char>;
@@ -50,7 +50,6 @@ void PRINT2D(U a) {
   cout << "******VECTOR 2D PRINT ENDED******\n";
 }
 
-//行列回転、
 
 int main()
 {
