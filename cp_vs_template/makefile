@@ -1,5 +1,7 @@
 TEST_DIR=test
 
+TLE := 4
+
 test/sample-1.in :
 	oj_helper.sh d
 
@@ -15,7 +17,7 @@ run: $(PROGRAM)
 
 .PHONY : test
 test: $(PROGRAM) test/sample-1.in
-	oj test -c $(PROGRAM)
+	oj test -t $(TLE) -c $(PROGRAM)
 
 .PHONY : submit
 submit: $(PROGRAM) test
